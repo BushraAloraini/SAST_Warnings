@@ -1,0 +1,40 @@
+project,v1,v2,tool,old_file,old_line,old_description,new_file,new_line,new_description,status,file_name_changed,still_bug,same_description,false_positive
+Git,1.5.6,2.13.2,cppcheck,builtin-branch.c,91,uninitvar Uninitialized variable: head_rev,builtin-branch.c,NA,NA,deleted,0,NA,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,builtin-cat-file.c,155,uninitvar Uninitialized variable: contents,builtin/cat-file.c,210,NA,changed,1,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,builtin-check-attr.c,41,memleak Memory leak: check,builtin/check-attr.c,172,NA,changed,1,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,builtin-count-objects.c,127,memleak Memory leak: path,builtin/count-objects.c,168,NA,moved,1,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,builtin-diff.c,182,memleak Memory leak: parent,builtin/diff.c,200,NA,moved,1,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,builtin-fast-export.c,295,uninitvar Uninitialized variable: commit,builtin/fast-export.c,803,NA,changed,1,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,builtin-fetch--tool.c,419,uninitvar Uninitialized variable: lrr_count,contrib/examples/builtin-fetch--tool.c,420,uninitvar Uninitialized variable: lrr_count,moved,1,1,1,TFP
+Git,1.5.6,2.13.2,cppcheck,builtin-fetch--tool.c,426,uninitvar Uninitialized variable: lrr_list,contrib/examples/builtin-fetch--tool.c,427,uninitvar Uninitialized variable: lrr_list,moved,1,1,1,TFP
+Git,1.5.6,2.13.2,cppcheck,builtin-log.c,989,memleak Memory leak: list,builtin/log.c,1679,NA,moved,1,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,builtin-log.c,977,memleak Memory leak: add_signoff,builtin/log.c,NA,NA,deleted,1,NA,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,builtin-ls-remote.c,98,memleak Memory leak: pattern,builtin/ls-remote.c,101,NA,moved,1,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,builtin-mailinfo.c,843,unknownEvaluationOrder Expression 'while(op<line+len&&*op!='n')*np++=*op++' depends on order of evaluation of side effects,builtin-mailinfo.c,NA,NA,deleted,0,NA,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,builtin-merge-recursive.c,1251,uninitvar Uninitialized variable: mrtree,builtin-merge-recursive.c,NA,NA,deleted,0,NA,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,builtin-mv.c,273,memleak Memory leak: source,builtin/mv.c,300,NA,moved,1,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,builtin-mv.c,273,memleak Memory leak: destination,builtin/mv.c,300,NA,moved,1,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,builtin-mv.c,273,memleak Memory leak: modes,builtin/mv.c,300,NA,moved,1,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,builtin-rev-list.c,668,uninitvar Uninitialized variable: reaches,builtin/rev-list.c,391,uninitvar Uninitialized variable: reaches,moved,1,1,1,TFP
+Git,1.5.6,2.13.2,cppcheck,builtin-rev-list.c,668,uninitvar Uninitialized variable: all,builtin/rev-list.c,391,uninitvar Uninitialized variable: all,moved,1,1,1,TFP
+Git,1.5.6,2.13.2,cppcheck,bundle.c,208,memleak Memory leak: argv_pack,bundle.c,285,NA,moved,0,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,daemon.c,813,memleak Memory leak: socklist,daemon.c,947,NA,moved,0,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,diff.c,3400,leakReturnValNotUsed Return value of allocation function 'diff_queue' is not stored.,diff.c,5123,NA,moved,0,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,diff.c,3435,leakReturnValNotUsed Return value of allocation function 'diff_queue' is not stored.,diff.c,5160,NA,changed,0,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,diffcore-delta.c,140,memleak Memory leak: hash,diffcore-delta.c,142,NA,moved,0,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,fast-import.c,1860,uninitvar Uninitialized variable: oe,fast-import.c,2199,NA,changed,0,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,fast-import.c,2071,uninitvar Uninitialized variable: e,fast-import.c,2705,NA,changed,0,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,http-push.c,978,deallocret Returning/dereferencing 'url' after it is deallocated / released,http-push.c,647,NA,changed,0,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,http-push.c,1360,deallocuse Dereferencing 'lock' after it is deallocated / released,http-push.c,1000,NA,changed,0,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,http-walker.c,394,memleak Memory leak: url,http-walker.c,NA,NA,deleted,0,NA,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,http-walker.c,750,memleak Memory leak: url,http-walker.c,NA,NA,deleted,0,NA,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,imap-send.c,1117,uninitvar Uninitialized variable: tuid,imap-send.c,NA,NA,deleted,0,NA,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,match-trees.c,75,uninitvar Uninitialized variable: elem1,match-trees.c,85,NA,changed,0,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,match-trees.c,76,uninitvar Uninitialized variable: elem2,match-trees.c,86,NA,changed,0,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,match-trees.c,77,uninitvar Uninitialized variable: path1,match-trees.c,87,NA,changed,0,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,match-trees.c,78,uninitvar Uninitialized variable: path2,match-trees.c,NA,NA,deleted,0,NA,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,match-trees.c,79,uninitvar Uninitialized variable: mode1,match-trees.c,NA,NA,deleted,0,NA,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,match-trees.c,80,uninitvar Uninitialized variable: mode2,match-trees.c,87,NA,changed,0,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,sha1_file.c,806,memleak Memory leak: p,sha1_file.c,1331,NA,moved,0,0,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,transport.c,111,uninitvar Uninitialized variable: cmp,transport.c,NA,NA,deleted,0,NA,NA,FFP2
+Git,1.5.6,2.13.2,cppcheck,xdiff-interface.c,157,resourceLeak Resource leak: f,xdiff-interface.c,174,NA,moved,0,0,NA,FFP2
