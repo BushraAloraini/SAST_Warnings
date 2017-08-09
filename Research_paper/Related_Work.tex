@@ -1,0 +1,42 @@
+\section{Related Work}
+Some studies have evaluated the use of static analysis tools for buffer overflow detection  \cite{Zitser2004}  \cite{Torri2010}  \cite{Kratkiewicz2005}. All these mentioned studies were conducted on a few number of programs that have small size.  For instance, Zitser et al. have conducted the study on three open source programs: BIND, WU-FTPD, and Sendmail that contain 14 exploitable buffer overflow vulnerabilities to test 5 open source static analysis tools. While Torri et al. conducted similar study but it was generalized for multiple vulnerabilities types. The study was conducted on 5 programs that include 17 buffer overflow vulnerabilities in total. Kratkiew et al. have evaluated 291 small C program test cases.  However, our study  is the first empirical study aims to understand buffer overflow vulnerabilities by utilizing information that is maintained in large repositories. Our study, included mining 40 large projects with their commits. Also, all previous mentioned studies have been conducted on test cases, however we aim to evaluate real program and not test cases. In addition, all above mentioned studies were conducted on C language, but our study aims at studying static analysis tools that target both C++. 
+
+In addition to evaluate the efficiency of static analysis tools, our study also is the first study that aims to extract the pattern and the age of true positive vulnerabilities. In addition, our goal is to uncover the underlying technique of static analysis tools that detect real buffer overflow vulnerabilities. Table \ref{RealtedWork} shows the difference between our research and the previous research work that were conducted in studying the effectiveness of static analysis tools. 
+
+
+
+\begin{table} [h!]
+\centering
+\scriptsize
+%\resizebox{\textwidth}{!}{%
+\caption{\# The difference between this study and the previous research work that were conducted in studying the effectiveness of static analysis tools to detect buffer overflow}
+\label{RealtedWork}
+\scriptsize
+\centering
+%\hspace*{-1cm}
+%\fontsize{6pt}{9pt}
+\begin{tabular}{||p{2cm} |p{1cm} p{1cm} p{1cm} p{1cm}||}
+%\begin{tabular}{|l|l|l|l|l|l|}
+%\begin{tabular}{|p|c|c|c|c|c|}
+
+\hline
+\textbf{Research} &  \textbf{Zitser et. al}  \cite{Zitser2004}  & \textbf{Torri et. al} \cite{Torri2010} & \textbf{Kratkiew et. al} \cite{Kratkiewicz2005}&
+\textbf{This study} \\  [0.5ex]
+\hline\hline
+Size of Projects & Small & Small & Small &  Large 
+\\  
+Number of Projects & 3&5&291& 40  +cmts 
+\\ 
+ Number of Tools & 5 & 7&5 &3
+\\  
+Language & C &C&C&C++
+\\  
+Type &  Test case & Test case & Test case & Real
+\\  
+
+History & No& No& No & Yes
+\\ \hline
+
+\end{tabular}	
+\end{table}
+

@@ -1,0 +1,6 @@
+\section{Conclusion and Future Work}
+
+ This work provides an evaluation of free and open source static analysis tools to detect buffer overflow. We used a different method than the traditional once to evaluation the static analysis tools. We mined real and large repositories to conduct the study. We designed an algorithm and created a tool for that algorithm, which could aid to trace one warnings though time. The algorithm run with large scale project with different commits to generate detect whether a buffer overflow warnings is true positive based on its history. 
+ 
+In addition, we studied the age of the detected true positives and confirmed that most true positives are removed in less than 6 months. This study also gave us a better understanding about the pattern of buffer overflow bugs in which a static analysis tool able to detect. It implies that most buffer overflow true warnings occurred in potentially dangerous function calls.  In the future, we goal to study more advanced static analysis tools and improve the large and the quality of our dataset to produce more robust results. Also, we will improve our algorithm by including more semantic analysis. In addition, we might use the algorithm to  build a general tool that solve similar problems.   
+
