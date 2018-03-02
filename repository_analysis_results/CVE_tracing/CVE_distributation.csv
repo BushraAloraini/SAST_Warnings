@@ -1,0 +1,57 @@
+ Type of bug,Num of bug
+  Input Validation and Representation,"	293"
+  API Abuse,"	25"
+  Code Quality,"	35"
+  Encapsulation,"	13"
+  Security Features,"	24"
+  Time and State," 	3"
+,
+,
+  ,
+Input Validation and Representation Suptypes,"	Number of Occurrences"
+Buffer Overflow,"	143"
+Setting Manipulation,"	80"
+"Integer Overflow	",54
+SQL Injection,"	5"
+Format String,"	2"
+XML Validation,"	3"
+Cross-Site Scripting,"	1"
+Path Manipulation,"	3"
+Process Control,"	1"
+String Termination Error,"	1"
+Total,"	293"
+"	",
+"	",
+API Abuse Suptypes,"	Number of Occurrences"
+Often Misused: Privilege Management,"	21"
+Often Misused: Authentication,"	3"
+Unchecked Return Value,"	1"
+Total,"	25"
+"	",
+"	",
+Code Quality Suptypes,"	Number of Occurrences"
+Null Dereference,"	13"
+Double Free,"	1"
+Memory Leak,"	10"
+Undefined Behavior,"	10"
+Use After Free,"	1"
+Total,"	35"
+"	",
+"	",
+Encapsulation Suptypes,"	Number of Occurrences"
+System Information Leak,"	13"
+Total,"	13"
+"	",
+"	",
+Security Features Suptypes,"	Number of Occurrences"
+Missing Access Control,"	6"
+Password Management,"	2"
+Password Management: Weak Cryptography,"	16"
+Total,"	24"
+"	",
+"	",
+Time and State,"	Number of Occurrences"
+Insecure Temporary File,"	1"
+Signal Handling Race Conditions,"	1"
+Failure to Begin a New Session upon Authentication,"	1"
+Total,"	3"
